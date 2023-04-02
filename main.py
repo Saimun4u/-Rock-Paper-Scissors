@@ -1,7 +1,15 @@
+# How rock, paper scissors works
+  # r > s, s > p, p > r
+
 import random
 
-fruits = ["apple", 'banana', 'orange', 'avocado']
+def play():
+    user = input("'r' for rock, 'p' for paper, 's' for scissors")
+    computer = random.choice(['r', 'p', 's'])
 
-print(random.choice(fruits))
+    if user === computer:
+        return 'tie'
+
+
 
     
